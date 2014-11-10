@@ -1,0 +1,9 @@
+*.mode1v3
+*.perspectivev3
+*.pbxuser
+.DS_Store
+build/
+contents.xcworkspacedata
+/www
+/build
+UserInterfaceState.xcuserstate
