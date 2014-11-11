@@ -5,13 +5,7 @@
 
 Java2days.controller("HomeController", function ($scope,FoursquareService) {
 
-    $scope.nightLife = FoursquareService.getVenuesByCategory(42,21.433,FoursquareService.categories.travelAndTranspot).then(
-        function(success){
-            var i =1;
-        },
-        function(error){
-            var i =1;
-        });
+
     $scope.menu = [
         {
             "name":"Home",
