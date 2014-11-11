@@ -1,0 +1,13 @@
+<h1>About</h1>
+<div>
+    <ul>
+        <li ng-repeat="menuItem in menu"><a href="" ui-sref="{{menuItem.link}}"> {{menuItem.name}}</a> </li>
+    </ul>
+</div>
+
+<leaflet
+        center="center"
+        width="{{ width + 'px'}}"
+        height="{{ height - 80 + 'px'}}"
+        tiles="openstreetmap">
+</leaflet>

@@ -3,3 +3,4 @@
  */
 var debug = true;
 var deviceType = navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry)/);
+
