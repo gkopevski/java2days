@@ -119,8 +119,9 @@ ul{
 }
 
 li{
-    width:100%;
+    width:48%;
+    float:left;
     height: 30px;
-    margin:2px 0px 2px 0px;
+    margin:2px;
     background-color: red;
 }

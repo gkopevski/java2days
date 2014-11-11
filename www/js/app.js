@@ -15,15 +15,10 @@ Java2days.config(['$urlRouterProvider', '$stateProvider', function ($urlRouterPr
             templateUrl: 'views/home.html',
             controller: 'HomeController'
         })
-        .state('users', {
-            url: '/users',
-            templateUrl: 'views/users.html',
-            controller: 'UsersController'
-        })
-        .state('about', {
-            url: '/about',
-            templateUrl: 'views/about.html',
-            controller: 'AboutController'
+        .state('maps', {
+            url: '/maps',
+            templateUrl: 'views/maps.html',
+            controller: 'MapsController'
         });
 
 }]);

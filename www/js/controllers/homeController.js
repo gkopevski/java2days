@@ -12,12 +12,8 @@ Java2days.controller("HomeController", function ($scope,FoursquareService) {
             "link":"home"
         },
         {
-            "name":"Users",
-            "link":"users"
-        },
-        {
-            "name":"About",
-            "link":"about"
+            "name":"Maps",
+            "link":"maps"
         }
     ];
     localStorage.setItem("menu",JSON.stringify($scope.menu));
