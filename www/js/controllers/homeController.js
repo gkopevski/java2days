@@ -3,7 +3,7 @@
  */
 'use strict';
 
-Java2days.controller("HomeController", function ($scope,FoursquareService) {
+Java2days.controller("HomeController", function ($scope) {
 
 
     $scope.menu = [

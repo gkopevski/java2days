@@ -113,15 +113,3 @@ h1 {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
-
-ul{
-    list-style-type: none;
-}
-
-li{
-    width:48%;
-    float:left;
-    height: 30px;
-    margin:2px;
-    background-color: red;
-}

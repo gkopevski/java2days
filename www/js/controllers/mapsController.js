@@ -8,16 +8,13 @@ Java2days.controller("MapsController", function ($scope, $window, FoursquareServ
     $scope.menu = JSON.parse(localStorage.getItem("menu"));
 
     $scope.markers = [];
-    $scope.openstreetmap = {
-        url: "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-    };
     $scope.height = $window.innerHeight;
     $scope.width = $window.innerWidth;
     $scope.center = {};
     var defaultLat = 42,
         defaultLng = 21.433;
 
-    navigator.geolocation.getCurrentPosition(onSuccessGeoLocation, onErrorGeolocation);
+    navigator.geolocation.getCurrentPosition(onSuccessGeoLocation, onErrorGeolocation, { maximumAge: 3000, timeout: 5000, enableHighAccuracy: true });
 
     function onSuccessGeoLocation(position) {
         $scope.center = {
